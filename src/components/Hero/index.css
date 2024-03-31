@@ -1,0 +1,63 @@
+.hero-container {
+    margin-top: 2px;
+    position: relative;
+}
+.hero-image {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.hero-heading {
+    position: absolute;
+    top: 150px;
+    color: white;
+}
+.heading-text {
+    font-size: 3rem;
+    width: 58.333333%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    line-height: 1.375;
+}
+.sub-heading {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .heading-text {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .sub-heading {
+        width: 80%;
+        font-size: 10px;
+    }
+    .hero-heading {
+        position: absolute;
+        top: 50px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .heading-text {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .sub-heading {
+        width: 80%;
+        font-size: 10px;
+    }
+    .hero-heading {
+        position: absolute;
+        top: 50px;
+        color: white;
+    }
+}

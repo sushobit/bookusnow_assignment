@@ -1,0 +1,31 @@
+.upcoming-main-container {
+    width: 83.333333%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem; 
+}
+.upcoming-top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upcoming-event {
+   display: flex;
+   align-items: center;
+   font-weight: 600;
+   gap: 1rem; 
+}
+.upcoming-bottom-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem; /* Adjust as needed */
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.loader-contain {
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
